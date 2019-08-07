@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    background: url('./img/abstract-expressionism-abstract-painting-acrylic-1919287.jpg')no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.form-group{
+    height: 100%;
+    position: relative;
+}
+
+.form-area{
+    max-width: 450px;
+    margin: auto;
+    background: #fff;
+    color: #333;
+    height: 85vh;
+    margin-top: 7.5%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow:15px 20px 25px -5px #000; 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-content{
+    height: 70%;
+    position: relative;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background: url('./img/art-background-blank-1020317.jpg')no-repeat center center/cover;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    padding: 8rem 2rem 5rem 2rem;
+}
+
+.card-content h2{
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    font-size: 28px;
+}
+
+
+.card-content #status {
+    /* border: #000 1px solid; */
+    padding: 0.5rem 0;
+    margin-top: 2rem;
+    display: none;
+    width: 100%;
+    margin-bottom:0 !Important;
+}
+
+.actual-form{ 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #fff;
+    padding: 4rem 3rem;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.actual-form form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    /* margin-top: 1rem; */
+}
+
+form label{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+form input[type=password]{
+    text-align: center;
+    border:none;
+    margin-top: 1rem;
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 26px;
+    border-bottom: 1px solid #000;
+    background: transparent;
+}
+
+form input[type=password]:focus{
+    
+    outline: none;
+    margin-top: 1rem;
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 26px;
+}
+
+
+
